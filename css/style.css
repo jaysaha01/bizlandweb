@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Top section */
+.top{
+    background-color: rgb(12, 111, 224);
+    color: white;
+}
+/* Navigation */
+.active::before{
+    content: '';
+    position: absolute;
+    top:35px;
+    left: 9px;
+    border: 1px solid rgb(12, 111, 224);
+    width: 40px;
+}
+.active::before{
+    content: '';
+    position: absolute;
+    top:35px;
+    left: 9px;
+    border: 1px solid rgb(12, 111, 224);
+    width: 40px;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+}
+.dot{
+    color: rgb(31, 106, 244);
+}
+
+/* Baner section */
+.banner::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    background-image: url('../image/hero-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.6;
+}
+.bannertxt h2{
+    padding-top: 170px;
+    font-weight: 700;
+}
+.btngrp{
+    padding-bottom: 170px;
+}
+.name{
+    color: rgb(31, 106, 244);
+}
+.btn1{
+    background-color: rgb(31, 106, 244) ;
+    border: none;
+    color: white;
+    padding: 3px 12px;
+    border-radius: 4px;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    color: rgb(52, 51, 51);
+    font-weight: 500;
+}
+.btn2 i{
+    font-size: 30px;
+    color: rgb(31, 106, 244) ;
+    padding-right: 8px;
+}
+.bannertxt p{
+    color: rgb(92, 90, 90);
+    font-weight: 500;
+}
+/* Card section */
+.cardbx{
+    border-radius: 10px;
+    box-shadow: 1px 6px 29px 9px rgb(203, 201, 201);
+}
+.cardicon i{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color:  rgb(31, 106, 244);
+}
+.cardtex1 p{
+    padding-left: 20px;
+}
+.cardtex2 p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
